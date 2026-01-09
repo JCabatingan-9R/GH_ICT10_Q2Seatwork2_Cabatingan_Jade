@@ -63,4 +63,4 @@ def gwacalc(e):
     if average > 75: # if statement for passing grade
         display(f'Congratulations, you have passed!', target='ave')
     else: # else statement for failing grade
-        display(f'Oh no...You've failed!', target='ave')
+        display(f'Oh no...You have failed!', target='ave')
