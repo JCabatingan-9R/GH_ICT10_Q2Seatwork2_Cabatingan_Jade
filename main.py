@@ -59,3 +59,8 @@ def gwacalc(e):
     display(name, target='h2')
     display(multi, target='about')
     display(f'Your General Weighted Average is {average:.2f}', target='ave')
+
+    if average > 75: # if statement for passing grade
+        display(f'Congratulations, you have passed!', target='ave')
+    else: # else statement for failing grade
+        display(f'Oh no...You've failed!', target='ave')
